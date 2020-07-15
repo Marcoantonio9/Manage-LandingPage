@@ -1,20 +1,17 @@
-#page-home{
+#page-home {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    
 }
 
-#item-1{
+#item-1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
     margin-top: -50px;
 }
 
-#item-1 h1{
+#item-1 h1 {
     margin-left: -10px;
     margin-bottom: 20px;
     width: 390px;
@@ -22,48 +19,44 @@
     color: #252d52;
 }
 
-#item-1 p, #item-1-pt-2 p{
+#item-1 p, #item-1-pt-2 p {
     margin-left: -80px;
     font-size: 15px;
     width: 320px;
-
     color: #858894;
 }
 
-#item-2{
+#item-2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-image: url(../imagens/bg-tablet-pattern.svg);
     background-position: right;
     background-repeat: no-repeat;
 }
 
-#item-2 img{
+#item-2 img {
     width: 450px;
     margin-top: 50px;
 }
 
 /***Parte 2***/
 
-#page-2{
+#page-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     margin-top: 50px;
 }
 
-#item-1-pt-2{
+#item-1-pt-2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
     margin-top: -290px;
 }
 
-#item-1-pt-2 h1{
+#item-1-pt-2 h1 {
     margin-left: -10px;
     margin-bottom: 20px;
     width: 390px;
@@ -71,149 +64,145 @@
     color: #252d52;
 }
 
-#item-2-pt-2{
+#item-2-pt-2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
 }
-#topicos{
+
+#topicos {
     margin-top: 50px;
 }
-.num-aparencia{
+
+.num-aparencia {
     background-color: #f3613c;
     color: #ffffff;
     font-size: 16px;
     width: 50px;
     height: 30px;
-
     border: none;
     border-radius: 8px;
-
     align-items: center;
     justify-content: center;
 }
 
-#item-2-pt-2 p{
+#item-2-pt-2 p {
     margin-left: 55px;
     margin-top: 20px;
     margin-bottom: 40px;
-
     width: 420px;
     color: #858894;
 }
 
 /*** Parte 3 ***/
-#page-3{
-    margin-top: 60px;
 
+#page-3 {
+    margin-top: 60px;
     background-image: url(../imagens/bg-tablet-pattern.svg);
     background-position: left;
     background-repeat: no-repeat;
 }
-#posicao-title{
+
+#posicao-title {
     display: flex;
     margin: 0 auto;
 }
-#page-3 h1{
+
+#page-3 h1 {
     font-size: 32px;
     color: #252d52;
-
     display: flex;
     margin: 0 auto;
 }
-#usuarios{
+
+#usuarios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
-
     margin-top: 70px;
 }
-.comentarios{
+
+.comentarios {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.comentarios img{
+
+.comentarios img {
     width: 110px;
     margin-bottom: 20px;
 }
-.comentarios p{
+
+.comentarios p {
     margin-top: 20px;
     text-align: center;
     color: #858894;
 }
-#btn-page-3{
+
+#btn-page-3 {
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-
     width: 150px;
     height: 50px;
     margin-top: 70px;
     margin-bottom: 50px;
-
     background-color: #f3613c;
     color: #ffffff;
-
     border: none;
     border-radius: 25px;
-
 }
 
-#btn-page-3:hover{
+#btn-page-3:hover {
     opacity: 8;
     background-color: #ff7f5f;
     cursor: pointer;
 }
 
-/*** Parte 4 ***/ 
-#page-4{
-    margin-top: 120px;
+/*** Parte 4 ***/
 
+#page-4 {
+    margin-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
     justify-content: center;
-
     background-color: #f3613c;
     background-image: url(../imagens/bg-simplify-section-desktop.svg);
     background-position: center;
 }
-#posicionar-title{
+
+#posicionar-title {
     display: flex;
     width: 480px;
-
     margin: 0 auto;
     padding: 50px;
 }
-#page-4 h1{
+
+#page-4 h1 {
     font-size: 32px;
     color: #ffffff;
 }
 
-#btn-page-4{
+#btn-page-4 {
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-
     width: 150px;
     height: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-
     background-color: #ffffff;
     color: #f3613c;
-
     border: none;
     border-radius: 25px;
 }
-#btn-page-4:hover{
+
+#btn-page-4:hover {
     background-color: #dfdfdf;
     cursor: pointer;
 }

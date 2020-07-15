@@ -25,6 +25,4 @@ let btnGo = document.querySelector('#btnGo')
             alert(`E-mail: ${email} cadastrado com sucesso!`)
             window.location.reload()
         }
-
-
 })

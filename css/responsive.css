@@ -1,93 +1,86 @@
-@media(max-width: 800px){
-    .menu{
+@media(max-width: 800px) {
+    .menu {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-
         transform: translateX(-100%);
         transition: transform 200ms linear;
-        background-color:#cfcfcf;
+        background-color: #cfcfcf;
         opacity: 0.9;
     }
-    .menu_open{
+    .menu_open {
         transform: translateX(0);
     }
-    .nav-item{
+    .nav-item {
         padding: 20px 15px;
         border-bottom: 1px solid black;
         text-align: center;
     }
-    #logo{
+    #logo {
         margin-top: 30px;
         margin-left: 10px;
     }
-    nav{
+    nav {
         display: block;
     }
-    nav ul{
+    nav ul {
         display: block;
     }
-    nav ul li a{
+    nav ul li a {
         text-decoration: none;
         color: black;
     }
-    #btn-aparencia{
+    #btn-aparencia {
         display: none;
     }
-
-    #page-home{
+    #page-home {
         display: flex;
         flex-direction: column;
-
         text-align: center;
         margin-top: 250px;
     }
-    #page-home p{
+    #page-home p {
         align-items: center;
         justify-content: center;
         margin: 0 auto;
     }
-    #page-home img{
+    #page-home img {
         width: 250px;
     }
-
-    #item-1{
+    #item-1 {
         margin-top: -200px;
     }
-    #page-2{
+    #page-2 {
         display: flex;
         flex-direction: column;
-
         margin-top: 350px;
     }
-    #page-2 h1{
+    #page-2 h1 {
         text-align: center;
     }
-    #page-2 p{
+    #page-2 p {
         margin: 0 auto;
         width: 290px;
         margin-bottom: 50px;
     }
-    #usuarios{
+    #usuarios {
         display: flex;
         flex-direction: column;
     }
-    #page-4{
+    #page-4 {
         display: flex;
         flex-direction: column;
-
         width: 100%;
     }
-    #page-4 h1{
+    #page-4 h1 {
         font-size: 15px;
     }
-    footer{
+    footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-
         text-align: center;
     }
 }

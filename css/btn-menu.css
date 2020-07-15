@@ -1,19 +1,17 @@
-@media(max-width: 800px){
-    .btnMenu{
+@media(max-width: 800px) {
+    .btnMenu {
         display: block;
         background-repeat: no-repeat;
         background-position: 15px center;
         text-indent: -9999px;
         padding: 20px 15px;
     }
-    
-    .btnMenu_open{
+    .btnMenu_open {
         background-image: url(../imagens/icon-hamburger.svg);
         margin-right: 20px;
         float: right;
     }
-    
-    .btnMenu_close{
+    .btnMenu_close {
         background-color: #cfcfcf;
         background-image: url(../imagens/icon-close.svg);
     }
